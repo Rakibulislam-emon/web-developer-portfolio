@@ -1,51 +1,100 @@
 /* common styles will added here */
 
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
-.btn{
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 18px 35px 19px 36px;
-    background-color: #FD6E0A;
-    border-radius: 5px;
-    border: 0;
+.btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px 19px 36px;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  border: 0;
 }
 
 /* nav styles */
 /* primary color */
-.orange{
-    color: #FD6E0A;
+.orange {
+  color: #fd6e0a;
 
-font-size: 45px;
+  font-size: 45px;
 
-font-weight: 800;
-
+  font-weight: 800;
 }
-.nav-title{
-    color: #181818;
-font-size: 45px;
-font-weight: 800;
-
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
 }
-nav li{
-    list-style: none;
-    margin-right: 50px;
-}
-
-nav > ul{
-    display: flex;
-    align-items: center;
-
-}
-nav a{
-    text-decoration: none;
-    color: #474747;
+nav li {
+  list-style: none;
+  margin-right: 50px;
 }
 
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+
+/* header related style */
+.header {
+  background: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.bnr-greeting {
+  font-size: 45px;
+  font-weight: 600px;
+  color: #474747;
+}
+.bnr-heading {
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+}
+.bnr-description {
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.download {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #fd6e0a;
+  padding: 19px 17px 18px 51px;
+  border: 0;
+}
+.contact {
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 700px;
+  text-align: center;
+  padding: 18px 19px 18px 58px;
+  box-flex-group: #fff8f3;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  background: #fff8f3;
+}
+.profile{
+    width: 584px;
+    height: 676px;
+    
+}
